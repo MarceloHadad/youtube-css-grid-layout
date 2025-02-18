@@ -84,7 +84,7 @@ main {
 	background-color: #ffff;
 	display: grid;
 	padding: 1.5rem;
-	gap: 0.5rem;
+	gap: 1rem;
 }
 
 .side-menu-item {
@@ -103,8 +103,8 @@ main {
 	background-color: #f9f9f9;
 }
 
-.content-item {
-	width: 80%;
+.content {
+	width: 100%;
 }
 
 .content-item-info {
@@ -113,6 +113,13 @@ main {
 	grid-template-columns: 50px auto;
 	gap: 1rem;
 	padding: 0.5rem;
+}
+
+.content-item-info figure {
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	overflow: hidden;
 }
 
 .content-item-details {
